@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style-product.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky-kit.js"></script>
+	<script src="https://kit.fontawesome.com/6a12dba605.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#product-show2").click(function(){
+			remove();
+			var src = $("#product-show2").attr("src");
+			$("#product-show").attr("src", src);
+			$("#product-show2").attr("style","border: 1px solid red;")
+		});
+		$("#product-show1").click(function(){
+			remove()
+			var src = $("#product-show1").attr("src");
+			$("#product-show").attr("src", src);
+			$("#product-show1").attr("style","border: 1px solid red;")
+		});
+			$("#product-show3").click(function(){
+				remove()
+			var src = $("#product-show3").attr("src");
+			$("#product-show").attr("src", src);
+			$("#product-show3").attr("style","border: 1px solid red;")
+		});
+		function remove() {
+				$("#product-show2").removeAttr("style");
+				$("#product-show1").removeAttr("style");
+				$("#product-show3").removeAttr("style");
+			}	
+
+	});
+</script>
+
+
+<!-- header -->
+<header>
+	<div class="top-head">
+		<div class="container">
+			<div class="row">
+				<div class="img">
+					<img src="images/logo.png">
+				</div>
+				<div><input type="text" class="text" value="Tìm kiếm" name="">
+					<input type="button" class="btn" value="Tìm kiếm" name="">
+				</div>
+				<div class="login">
+					<div>Xin chào quý khách</div>
+					<div><a href="#">Đăng ký</a>&#124;<a href="#">Đăng nhập</a></div>
+				</div>
+				<div class="pay">
+					<div><a href="#">Số sản phẩm: <span style="font-weight: bold;">0</span></a></div>
+					<div><a href="#">Thành tiền: <span style="font-weight: bold;">0 VND</span></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom-head">
+		<div class="container">
+				<ul >
+					<div class="row">
+					<li><a href="">Trang chủ</a></li>
+					<li><a href="">Giới thiệu</a></li>
+					<li><a href="">Danh mục sản phẩm</a>
+						<ul class="bottom-head-ul2">
+						
+								<li><a href="#">Điện thoại - máy tính bảng</a></li>
+								<li><a href="#">Máy ảnh & phụ kiện</a></li>
+								<li><a href="#">Thiết bị - phụ kiện số</a></li>
+												
+						</ul>
+						
+					</li>
+					<li><a href="">Tin tức</a></li>
+					<li><a href="">Liên hệ</a></li>
+					</div>
+				</ul>
+			</div>
+		</div>	
+</header>
+<!-- header -->
+<!-- wrapper -->
+<div class="wrapper">
+	<div class="container">
+		<div class="row">
+			<!-- right -->
+			<div class="col-xl-3 col-lg-3 col-md-3 right">
+				<div class="category">
+					<div class="category-title">Danh mục sản phẩm</div>
+					<ul>
+						<li><i class="fas fa-mobile"></i>&nbsp;&nbsp;<a href="">Điện thoại - máy tính bảng</a></li>
+						<li><i class="fas fa-camera">&nbsp;&nbsp;</i><a href="">Máy ảnh - phụ kiện</a></li>
+						<li><i class="fas fa-laptop-code"></i>&nbsp;&nbsp;<a href="">Thiết bị - phụ kiện số</a></li>
+						<li><i class="fas fa-tablet"></i>&nbsp;&nbsp;<a href="">Thiết bị - phụ kiện số</a></li>
+						<li><i class="fas fa-tablet"></i>&nbsp;&nbsp;<a href="">Thiết bị - phụ kiện số</a></li>
+						<li><i class="fas fa-tablet"></i>&nbsp;&nbsp;<a href="">Thiết bị - phụ kiện số</a></li>
+						<li><i class="fas fa-tablet"></i>&nbsp;&nbsp;<a href="">Thiết bị - phụ kiện số</a></li>
+						<li><i class="fas fa-tablet"></i>&nbsp;&nbsp;<a href="">Thiết bị - phụ kiện số</a></li>
+						<li><i class="fas fa-tablet"></i>&nbsp;&nbsp;<a href="">Thiết bị - phụ kiện số</a></li>
+						
+					</ul>
+
+				</div>
+				<div class="search">
+					<div class="search-title">Tìm kiếm</div>
+					<ul>
+						<li>
+							Tìm kiếm sản phẩm<br>
+							<select>
+								<option>Tìm toàn bộ</option>
+								<option>Điện thoại - máy tính bảng</option>
+								<option>Máy ảnh - phụ kiện</option>
+								<option>Thiết bị - phụ kiện số</option>
+							</select>
+						</li>
+						<li>Giá từ<br>
+							<select>
+							<option>0</option>	
+							<option>5.000.000</option>	
+							<option>10.000.000</option>	
+							<option>15.000.000</option>	
+							<option>20.000.000</option>	
+							</select>
+						</li>
+						<li>Đến<br>
+							<select>
+								<option>>20.000.000</option>	
+							<option>5.000.000</option>	
+							<option>10.000.000</option>	
+							<option>15.000.000</option>	
+							<option>20.000.000</option>	
+							</select>
+						</li>
+					</ul>
+					<div class="input"><input type="button" value="Tìm kiếm" name=""></div>
+					
+				</div>
+				<div class="thong-ke">
+					<div class="thong-ke-title">
+						Thống kê truy cập
+					</div>
+					<ul>
+						<li><i class="far fa-clock"></i>&nbsp;&nbsp;Đang truy cập: 66</li>
+						<li><i class="fas fa-chart-area"></i>&nbsp;&nbsp;Trong ngày: 666</li>
+						<li><i class="fas fa-calendar-week"></i>&nbsp;&nbsp;Trong tuần: 6666</li>
+						<li><i class="fas fa-chart-line"></i>&nbsp;&nbsp;Lượt truy cập: 666666</li>
+					</ul>
+				</div>
+
+				<div><img src="images/adv.jpg"></div>
+			</div>
+			<!-- right -->
+			<!-- left -->
+			<div class="col-xl-9 col-lg-9 col-md-9 left">
+				<div class="row">
+					<div class="col-xl-5 col-lg-5 col-md-5 product-img">
+						<div class="product-show"><img id="product-show" src="images/product-img1.jpg"></div>
+						<div class="row">
+							<div class="product-show1" ><img id="product-show1" src="images/product-img1.jpg"></div>
+							<div class="product-show1" ><img id="product-show2" src="images/product-img2.jpg"></div>
+							<div class="product-show1" ><img id="product-show3" src="images/product-img3.jpg"></div>
+						</div>
+						
+					</div>
+					<div  class="col-xl-4 col-lg-4 col-md-4 buy-product">
+						<p style="border-bottom: 1px solid #eeeeee; font-weight: bold; font-size: 18px; padding-bottom: 10px;">iPhone 11 | Chính hãng VN/A 
+						</p>
+						<p>Category: iphone</p>
+						<p><span>Khuyến mãi: 15.000.000 VNĐ</span><br>Giá niêm yết: &nbsp; &nbsp;<span style="text-decoration: line-through;">20.000.000 VNĐ</span></p>
+						<p>
+							Mua hàng từ
+							<select>
+								<option>Hà Nội</option>
+								<option>Hồ Chí Minh</option>
+								<option>Đà nẵng</option>
+							</select>
+						</p>
+
+						
+						<p>Dung lượng:&nbsp; &nbsp; <select>
+							<option>256 GB</option>
+							<option>128 GB</option>
+							<option>64 Gb</option>
+						</select></p>
+						<p>Màu:&nbsp; &nbsp;<select>
+							<option>Đỏ</option>
+							<option>Tím</option>
+							<option>Trắng</option>
+							<option>Xanh lá</option>
+						</select></p>
+						<div><input type="button" value="Mua ngay" name=""></div>
+
+					</div>
+
+
+				</div>
+				<div >
+					<h4 style="text-align: center; margin-top: 30px;">Đánh giá iPhone 11  – Camera nâng cấp, màu sắc trẻ trung
+					</h4>
+					<p style="text-align: justify;">iPhone 11 là model có nhiều màu sắc nhất và có giá rẻ nhất trong bộ 3 iPhone 11 series được Apple ra mắt trong năm 2019. Bên cạnh đó, cấu hình máy cũng được nâng cấp đặc biệt về cụm camera sau và Face ID, viên pin dung lượng lớn hơn.
+
+				</p>
+				<h5>
+					Đa dạng sự lựa chọn với 6 phiên bản màu sắc
+
+				</h5>
+				<p style="text-align: justify;">
+					Điểm nổi bật của iPhone 11 2019 đó là bên cạnh hai phiên bản đen và trắng quen thuộc thì máy còn có thêm bốn phiên bản khác đó là tím, vàng, xanh lá, đỏ. Với tất cả các phiên bản, bao gồm cả điện thoại iPhone 12 sắp ra mắt thì Apple đều thiết kế cạnh bên trùng màu với thân máy, tạo nên một thể thống nhất.	
+				</p>
+
+
+
+
+				</div>
+
+			</div>
+			<!-- left -->
+			
+
+
+		</div>
+
+
+	</div>
+</div>
+<!-- wrapper -->
+<!-- footer -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="info">CHÚNG TÔI Ở ĐÂY<br>
+			1 Vân Côi, P.1, Q. Tân Bình, Tp. Hồ Chí Minh<br>
+
+			Tư Vấn Bán Hàng (8h - 20h hằng ngày)<br>
+			1900 123 123<br>
+
+			Tư Vấn Đổi Trả (8h - 20h hằng ngày)<br>
+			1900 123 123
+			</div>
+		<div class="menu-bottom">
+			Về chúng tôi
+			<ul>
+				<li><a href="">Trang chủ</a></li>
+				<li><a href="">Giới thiệu</a></li>
+				<li><a href="">Danh mục sản phẩm</a></li>
+				<li><a href="">Tin tức</a></li>
+				<li><a href="">Liên hệ</a></li>
+			</ul>
+		</div >
+			<div class="porishi"><a href="">Chính sách</a></div>
+		<div class="phone">Điện thoại hoặc mã đơn hàng<br>
+			<input type="text" name=""><br>
+			<input type="button" value="Đồng ý" name="">
+		</div>
+	</div>
+	</div>
+</footer>
+<!-- footer -->
+</body>
+</html>

@@ -1,0 +1,333 @@
+
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+}
+.top-head .container{
+	position: relative;
+	height: 115px;
+
+}
+.top-head img{
+	margin-right: 100px;
+	position: absolute;
+	top: 50%;
+	animation: transform1 1s forwards;
+}
+@keyframes transform1{
+	0%{transform:  translateY(-150px); opacity: 0;}
+	100%{transform:  translateY(-35px); opacity: 1;}
+
+}
+
+.top-head .text{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 20%;
+	width: 400px;
+}
+.top-head .btn{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 56%;
+	background-color: #00a651;
+	
+}
+.top-head .login{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 70%;
+
+}
+.top-head .login a{
+	padding: 5px;
+	color: black;
+}
+
+.top-head .pay{
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.top-head .pay a{
+	color: black;
+}
+
+.bottom-head{
+	background-color: #00a651;
+	line-height: 30px;.
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.bottom-head .container  ul  li{
+	padding: 0px 15px;
+}
+
+.bottom-head .container  ul  li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+.bottom-head .container  ul  li:hover{
+	background-color: #0c6136;
+	position: relative;
+	transform: scale(1.1);
+	animation: transform 0.2s;
+	z-index: 1;
+	border-bottom: 1px solid #00a651;
+	
+}
+@keyframes transform{
+	0%	{transform: scale(1);}
+	100%{transform: scale(1.1);}
+}
+
+
+
+.bottom-head-ul2{
+	display: none;
+}
+
+
+.bottom-head .container  ul  li:hover .bottom-head-ul2{
+	display: block;
+	position: absolute;
+	background-color: #0c6136;
+	width: 100%;
+	margin-left: -15px;
+ 	animation: transform2 0.5s;
+	z-index: 2;
+	
+}
+@keyframes transform2{
+	0%	{transform: translateY(20%); opacity: 0;}
+	100%{transform: translateY(0%); opacity: 1;}
+}
+
+.wrapper{
+	background-color: #white;
+	margin-top: -16px;
+	padding-top: 16px;
+	padding-bottom: 20px;
+}
+
+.wrapper .row .category {
+	border-radius: 10px 10px 0px 0px;
+	background-color: white;
+	border: 1px solid #eeeeee;
+	margin-bottom: 20px;
+}
+
+.wrapper .row .category .category-title{
+	border-radius: 10px 10px 0px 0px;
+	line-height: 35px;
+	padding-left: 25px;
+	font-size: 16px;
+	background-color: #00a651;
+	color: white;
+}
+
+.wrapper .row .category ul li{
+	padding: 5px 25px;
+
+}
+.wrapper .row .category ul li a{
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+.wrapper .row .category ul li a:hover{
+	color: red;
+}
+
+
+.wrapper .row .search {
+	border-radius: 10px 10px 0px 0px;
+	background-color: white;
+	border: 1px solid #eeeeee;
+}
+
+.wrapper .row .search .search-title{
+	border-radius: 10px 10px 0px 0px;
+	line-height: 35px;
+	padding-left: 25px;
+	font-size: 16px;
+	background-color: #00a651;
+	color: white;
+}
+
+.wrapper .row .search ul li{
+	padding: 5px 25px;
+}
+
+.wrapper .row .search ul li select{
+	width: 200px;
+}
+
+.wrapper .row .input{
+	text-align: center;
+	padding-bottom: 15px;
+}
+.wrapper .row .input input{
+	background: #00a651;
+	border-radius: 10px;
+	border: none;
+	width: 100px;
+	cursor: pointer;
+}
+
+.wrapper .row .thong-ke {
+	border-radius: 10px 10px 0px 0px;
+	background-color: white;
+	margin-top: 20px;
+	border: 1px solid #eeeeee;
+	margin-bottom: 20px;
+}
+.wrapper .row .thong-ke-title{
+	border-radius: 10px 10px 0px 0px;
+	line-height: 35px;
+	padding-left: 25px;
+	font-size: 16px;
+	background-color: #00a651;
+	color: white;
+}
+
+.wrapper .row .thong-ke ul li{
+	padding: 5px 25px;
+}
+
+
+.wrapper .left .product-show{
+	width: 350px;
+	height: 356px;
+	margin-left: -15px;
+	border: 1px solid #eeeeee;
+	overflow: hidden;
+	cursor: pointer;
+}
+.wrapper .left .product-show img {
+	width: 350px;
+	height: 356px;
+
+}
+
+.wrapper .left .product-show1{
+	width: 114px;
+	height: 113px;
+	margin-right: 4px;
+	border: 1px solid #eeeeee;
+	overflow: hidden;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.wrapper .left .product-show1 img {
+	width: 112px;
+	height: 111px;
+}
+
+
+.wrapper .left .buy-product input{
+	margin-left: 80px;
+	background-color: #00a651;
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	background-color: black;
+	color: white;
+	font-size: 12px;
+}
+footer .container{
+	padding: 50px 15px;
+
+
+}
+footer .info{
+	margin-right: 180px;
+}
+
+footer .menu-bottom{
+	margin-right: 180px;
+}
+
+footer .menu-bottom a{
+	color: white;
+	text-decoration: none;
+}
+
+footer .porishi{
+	margin-right: 180px;
+
+}
+footer .porishi a{
+	text-decoration: none;
+	color: white;
+}
+
+
+footer .phone input{
+	width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
